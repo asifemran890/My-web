@@ -1,0 +1,202 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #f4a460;
+  color: #fff;
+  padding: 20px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.name-asif {
+  display: flex;
+  align-items: center;
+}
+.about-you {
+  margin: auto;
+}
+.name-asif li {
+  list-style-type: none;
+  font-size: 30px;
+}
+.section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.section p,
+h2 {
+  padding: 50px 15px;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.project-card {
+  background-color: #e2e2e2;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  background-color: #ee6496;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#formMessage {
+  margin-top: 15px;
+  text-align: center;
+  color: green;
+}
+
+footer {
+  background-color: #f4cc54;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.bag-coolor {
+  background-color: rgb(245, 226, 152);
+}
+.skills {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.skills h2 {
+  color: rgb(28, 4, 4);
+}
+.skill-bar {
+  margin: 10px 0;
+  background: #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.skill-fill {
+  padding: 8px;
+  color: #160404;
+  transition: width 1s;
+  background-color: #f4a460;
+  display: flex;
+  justify-content: center;
+}
+.projects {
+  width: 95%;
+  margin: auto;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.projects h2 {
+  margin-left: 22px;
+  color: rgb(28, 4, 4);
+}
+.projects .gallery {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
+}
+.project {
+  width: 400px;
+  background: #f69e50;
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  color: rgba(255, 255, 255, 0.884);
+}
+.project a {
+  color: rgba(255, 255, 255, 0.884);
+  text-decoration: none;
+  font-size: 22px;
+}
+.project:hover {
+  transform: scale(1.02);
+}
+
+.social {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
